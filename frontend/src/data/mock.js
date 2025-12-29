@@ -10,7 +10,7 @@ export const categories = [
 export const products = [
   {
     id: 'prod-1',
-    name: 'Bamboo Diabetic Socks - 1 Pair',
+    name: 'Bamboo Diabetic Socks - 4 Pair',
     category: 'socks',
     price: 479,
     originalPrice: 799,
