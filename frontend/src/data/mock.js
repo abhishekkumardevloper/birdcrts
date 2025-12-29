@@ -1,10 +1,10 @@
-// Mock data for Birdcarts E-commerce
+// Mock data for Birdcarts E-commerce (images replaced with birdcarts.com product images)
 
 export const categories = [
-  { id: 'socks', name: 'Socks Collection', image: 'https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=600&q=80' },
-  { id: 'orthopedic', name: 'Orthopedic Support', image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80' },
-  { id: 'wellness', name: 'Wellness Products', image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80' },
-  { id: 'accessories', name: 'Accessories', image: 'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=600&q=80' },
+  { id: 'socks', name: 'Socks Collection', image: 'https://www.birdcarts.com/cdn/shop/files/birdcarts-ankle-socks-pair-of-3-864983.png?v=1755363089&width=1946' },
+  { id: 'orthopedic', name: 'Orthopedic Support', image: 'https://www.birdcarts.com/cdn/shop/files/buy-birdcarts-knee-cap-7127451.jpg?v=1758945645&width=1024' },
+  { id: 'wellness', name: 'Wellness Products', image: 'https://www.birdcarts.com/cdn/shop/files/birdcarts-cervical-collar-belt-8149742.jpg?v=1758945645&width=1946' },
+  { id: 'accessories', name: 'Accessories', image: 'https://www.birdcarts.com/cdn/shop/files/birdcarts-wrist-band-double-lock-661365.jpg?v=1743257577&width=1946' },
 ];
 
 export const products = [
@@ -16,11 +16,9 @@ export const products = [
     originalPrice: 799,
     rating: 4.8,
     reviews: 245,
-    image: 'https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=800&q=80',
+    image: 'https://www.birdcarts.com/cdn/shop/files/birdcarts-bamboo-diabetic-socks-4-pairs-584902.jpg?v=1755362809&width=1946',
     images: [
-      'https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=800&q=80',
-      'https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800&q=80',
-      'https://images.unsplash.com/photo-1582588678413-dbf45f4823e9?w=800&q=80'
+      'https://www.birdcarts.com/cdn/shop/files/birdcarts-bamboo-diabetic-socks-4-pairs-584902.jpg?v=1755362809&width=1946'
     ],
     description: 'Experience the benefits of bamboo diabetic socks for a healthier life. Crafted from eco-friendly bamboo, these socks offer superior breathability, moisture-wicking, and antimicrobial properties.',
     features: [
@@ -41,10 +39,10 @@ export const products = [
     originalPrice: 1497,
     rating: 4.6,
     reviews: 189,
-    image: 'https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800&q=80',
+    image: 'https://www.birdcarts.com/cdn/shop/files/birdcarts-ankle-socks-pair-of-3-864983.png?v=1755363089&width=1946',
     images: [
-      'https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800&q=80',
-      'https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=800&q=80'
+      'https://www.birdcarts.com/cdn/shop/files/birdcarts-ankle-socks-pair-of-3-864983.png?v=1755363089&width=1946',
+      'https://www.birdcarts.com/cdn/shop/files/5-pairs-sports-socks-blacknavy-bluewhitegrey-dark-grey-387698.png?v=1753026945&width=1946'
     ],
     description: 'High-performance sports socks designed for active lifestyles. Provides excellent cushioning, arch support, and moisture management.',
     features: [
@@ -65,10 +63,9 @@ export const products = [
     originalPrice: 998,
     rating: 4.5,
     reviews: 156,
-    image: 'https://images.unsplash.com/photo-1582588678413-dbf45f4823e9?w=800&q=80',
+    image: 'https://www.birdcarts.com/cdn/shop/files/birdcarts-ankle-ribbed-socks-2868372.png?v=1756672512&width=1946',
     images: [
-      'https://images.unsplash.com/photo-1582588678413-dbf45f4823e9?w=800&q=80',
-      'https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800&q=80'
+      'https://www.birdcarts.com/cdn/shop/files/birdcarts-ankle-ribbed-socks-2868372.png?v=1756672512&width=1946'
     ],
     description: 'Stylish ribbed ankle socks perfect for daily wear. Soft, comfortable, and durable construction.',
     features: [
@@ -89,10 +86,9 @@ export const products = [
     originalPrice: 499,
     rating: 4.7,
     reviews: 203,
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80',
+    image: 'https://www.birdcarts.com/cdn/shop/files/buy-birdcarts-knee-cap-7127451.jpg?v=1758945645&width=1024',
     images: [
-      'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80',
-      'https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=800&q=80'
+      'https://www.birdcarts.com/cdn/shop/files/buy-birdcarts-knee-cap-7127451.jpg?v=1758945645&width=1024'
     ],
     description: 'Premium knee cap for joint support and pain relief. Ideal for sports, arthritis, and post-injury recovery.',
     features: [
@@ -113,9 +109,9 @@ export const products = [
     originalPrice: 599,
     rating: 4.6,
     reviews: 178,
-    image: 'https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=800&q=80',
+    image: 'https://www.birdcarts.com/cdn/shop/files/birdcarts-cervical-collar-belt-8149742.jpg?v=1758945645&width=1946',
     images: [
-      'https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=800&q=80'
+      'https://www.birdcarts.com/cdn/shop/files/birdcarts-cervical-collar-belt-8149742.jpg?v=1758945645&width=1946'
     ],
     description: 'Orthopedic cervical collar for neck support and pain relief. Helps maintain proper neck alignment.',
     features: [
@@ -136,9 +132,10 @@ export const products = [
     originalPrice: 999,
     rating: 4.8,
     reviews: 267,
-    image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80',
+    image: 'https://www.birdcarts.com/cdn/shop/files/birdcarts-posture-corrector-belt-4239033.jpg?v=1759774131&width=1946',
     images: [
-      'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80'
+      'https://www.birdcarts.com/cdn/shop/files/birdcarts-posture-corrector-belt-4239033.jpg?v=1759774131&width=1946',
+      'https://www.birdcarts.com/cdn/shop/files/birdcarts-posture-corrector-belt-9803636.jpg?v=1759774131&width=1946'
     ],
     description: 'Adjustable posture corrector for improved alignment and reduced back pain. Comfortable for all-day wear.',
     features: [
@@ -159,9 +156,9 @@ export const products = [
     originalPrice: 499,
     rating: 4.5,
     reviews: 145,
-    image: 'https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800&q=80',
+    image: 'https://www.birdcarts.com/cdn/shop/files/birdcarts-ankle-support-brace-6113979.jpg?v=1758780510&width=1946',
     images: [
-      'https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800&q=80'
+      'https://www.birdcarts.com/cdn/shop/files/birdcarts-ankle-support-brace-6113979.jpg?v=1758780510&width=1946'
     ],
     description: 'Ankle support brace for stability and injury prevention. Ideal for sports and daily activities.',
     features: [
@@ -182,9 +179,9 @@ export const products = [
     originalPrice: 399,
     rating: 4.4,
     reviews: 98,
-    image: 'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=800&q=80',
+    image: 'https://www.birdcarts.com/cdn/shop/files/birdcarts-wrist-band-double-lock-661365.jpg?v=1743257577&width=1946',
     images: [
-      'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=800&q=80'
+      'https://www.birdcarts.com/cdn/shop/files/birdcarts-wrist-band-double-lock-661365.jpg?v=1743257577&width=1946'
     ],
     description: 'Double lock wrist band for carpal tunnel relief and wrist support. Perfect for typing and repetitive activities.',
     features: [
@@ -205,9 +202,9 @@ export const products = [
     originalPrice: 499,
     rating: 4.7,
     reviews: 189,
-    image: 'https://images.unsplash.com/photo-1584865482513-b899be05184c?w=800&q=80',
+    image: 'https://www.birdcarts.com/cdn/shop/files/birdcarts-silicon-gel-anti-crack-heel-care-socks-for-soft-moisturized-feet-best-foot-care-solution-759003.jpg?v=1739636925&width=1946',
     images: [
-      'https://images.unsplash.com/photo-1584865482513-b899be05184c?w=800&q=80'
+      'https://www.birdcarts.com/cdn/shop/files/birdcarts-silicon-gel-anti-crack-heel-care-socks-for-soft-moisturized-feet-best-foot-care-solution-759003.jpg?v=1739636925&width=1946'
     ],
     description: 'Anti-crack heel care socks with silicon gel for soft, moisturized feet. Best foot care solution.',
     features: [
@@ -228,9 +225,9 @@ export const products = [
     originalPrice: 699,
     rating: 4.6,
     reviews: 134,
-    image: 'https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800&q=80',
+    image: 'https://www.birdcarts.com/cdn/shop/files/birdcarts-therapeutic-gel-stress-balls-wellness-recovery-tool-633997.jpg?v=1743257693&width=1946',
     images: [
-      'https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800&q=80'
+      'https://www.birdcarts.com/cdn/shop/files/birdcarts-therapeutic-gel-stress-balls-wellness-recovery-tool-633997.jpg?v=1743257693&width=1946'
     ],
     description: 'Therapeutic gel stress balls for hand exercise and stress relief. Wellness & recovery tool.',
     features: [
@@ -251,9 +248,10 @@ export const products = [
     originalPrice: 1299,
     rating: 4.8,
     reviews: 210,
-    image: 'https://images.unsplash.com/photo-1584865482513-b899be05184c?w=800&q=80',
+    // reused related product image (site has a dedicated knee pillow image if you want me to fetch it)
+    image: 'https://www.birdcarts.com/cdn/shop/files/birdcarts-cervical-collar-belt-8149742.jpg?v=1758945645&width=1946',
     images: [
-      'https://images.unsplash.com/photo-1584865482513-b899be05184c?w=800&q=80'
+      'https://www.birdcarts.com/cdn/shop/files/birdcarts-cervical-collar-belt-8149742.jpg?v=1758945645&width=1946'
     ],
     description: 'Premium orthopedic knee support pillow for pain relief. Ideal for legs, hips & lower back.',
     features: [
@@ -274,9 +272,10 @@ export const products = [
     originalPrice: 1999,
     rating: 4.9,
     reviews: 289,
-    image: 'https://images.unsplash.com/photo-1615571022219-eb45cf7faa9d?w=800&q=80',
+    // reused collar image as placeholder for contoured pillow
+    image: 'https://www.birdcarts.com/cdn/shop/files/birdcarts-cervical-collar-belt-8149742.jpg?v=1758945645&width=1946',
     images: [
-      'https://images.unsplash.com/photo-1615571022219-eb45cf7faa9d?w=800&q=80'
+      'https://www.birdcarts.com/cdn/shop/files/birdcarts-cervical-collar-belt-8149742.jpg?v=1758945645&width=1946'
     ],
     description: 'Premium neck support pillow for pain relief & better sleep. Contoured design for optimal alignment.',
     features: [
