@@ -1,0 +1,9 @@
+{
+  "name": "birdcart-root",
+  "private": true,
+  "workspaces": ["frontend"],
+  "engines": {
+    "node": "24.x"
+  }
+}
+
